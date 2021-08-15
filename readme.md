@@ -3,11 +3,11 @@
 ## How start
 ./gradlew bootRun
 
-##API
-###To check status of the API (Health check)
+## API
+### To check status of the API (Health check)
 GET: http://localhost:8080/assessment/status
 
-###Coordinate finder
+### Coordinate finder
 GET: http://localhost:8080/assessment/coordinates?origin={originValue}&destination=${destinationValue}
 
 originValue and destinationValue can be human readable address or can be in latitude,longitude(no space after , in latitude and longitude) format

@@ -1,0 +1,115 @@
+2021-08-15 03:37:07,924 INFO com.test.assessment.AssessmentApplication [restartedMain] Starting AssessmentApplication using Java 1.8.0_202 on PU-RGUPTA with PID 27366 (/Users/roshan.gupta/Documents/java/assessment/build/classes/java/main started by roshan.gupta in /Users/roshan.gupta/Documents/java/assessment)
+2021-08-15 03:37:07,925 INFO com.test.assessment.AssessmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-15 03:37:07,954 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-15 03:37:07,954 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-15 03:37:08,701 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-15 03:37:08,706 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-08-15 03:37:08,707 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-15 03:37:08,778 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-15 03:37:08,778 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 823 ms
+2021-08-15 03:37:09,096 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-15 03:37:09,136 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 03:37:09,147 INFO com.test.assessment.AssessmentApplication [restartedMain] Started AssessmentApplication in 1.488 seconds (JVM running for 2.066)
+2021-08-15 03:37:16,057 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 03:37:16,058 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-08-15 03:37:16,058 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2021-08-15 03:37:16,076 INFO com.test.assessment.controller.AssessmentController [http-nio-8080-exec-1] 697439f8-bd3c-43c4-aae8-d19ed33c3935
+2021-08-15 03:37:37,428 INFO com.test.assessment.controller.AssessmentController [http-nio-8080-exec-2] Request=ServletWebRequest: uri=/assessment/coordinates;client=0:0:0:0:0:0:0:1, RequestBody=200 OK, ResponseCode={}, ResponseBody={}
+2021-08-15 03:37:37,429 ERROR com.test.assessment.controller.AssessmentController [http-nio-8080-exec-2] Request=d9c7e515-41e9-40ae-9a2d-3f20876f4753, errorMessage=Empty query parameter
+2021-08-15 03:37:37,565 INFO com.test.assessment.services.AssessmentService [http-nio-8080-exec-2] RequestId=d9c7e515-41e9-40ae-9a2d-3f20876f4753 making call to direction API
+2021-08-15 03:37:38,002 ERROR com.test.assessment.services.AssessmentService [http-nio-8080-exec-2] RequestId=d9c7e515-41e9-40ae-9a2d-3f20876f4753, errorMsg=Error while making direction request, error: 
+2021-08-15 03:37:38,034 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.google.maps.errors.InvalidRequestException: Invalid request. Missing the 'destination' parameter.]
+2021-08-15 03:39:48,982 INFO com.test.assessment.AssessmentApplication [restartedMain] Starting AssessmentApplication using Java 1.8.0_202 on PU-RGUPTA with PID 27394 (/Users/roshan.gupta/Documents/java/assessment/build/classes/java/main started by roshan.gupta in /Users/roshan.gupta/Documents/java/assessment)
+2021-08-15 03:39:48,984 INFO com.test.assessment.AssessmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-15 03:39:49,014 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-15 03:39:49,014 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-15 03:39:49,645 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-15 03:39:49,650 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-08-15 03:39:49,650 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-15 03:39:49,719 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-15 03:39:49,720 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 706 ms
+2021-08-15 03:39:49,929 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-15 03:39:49,958 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 03:39:49,965 INFO com.test.assessment.AssessmentApplication [restartedMain] Started AssessmentApplication in 1.25 seconds (JVM running for 1.748)
+2021-08-15 03:40:11,746 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 03:40:11,746 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-08-15 03:40:11,747 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-08-15 03:40:11,779 INFO com.test.assessment.controller.AssessmentController [http-nio-8080-exec-1] Request=ServletWebRequest: uri=/assessment/coordinates;client=0:0:0:0:0:0:0:1, RequestBody=200 OK, ResponseCode={}, ResponseBody={}
+2021-08-15 03:40:11,780 ERROR com.test.assessment.controller.AssessmentController [http-nio-8080-exec-1] Request=ac3cba33-87ed-44ac-93ed-41173c2eae8a, errorMessage=Empty query parameter
+2021-08-15 03:40:11,829 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.test.assessment.exceptions.MissingParameterException: Missing one of origin or destination parameter]
+2021-08-15 03:41:06,891 INFO com.test.assessment.controller.AssessmentController [http-nio-8080-exec-2] Request=ServletWebRequest: uri=/assessment/coordinates;client=0:0:0:0:0:0:0:1, RequestBody=200 OK, ResponseCode={}, ResponseBody={}
+2021-08-15 03:41:07,080 INFO com.test.assessment.services.AssessmentService [http-nio-8080-exec-2] RequestId=3201ddb2-3e9b-440c-9cbf-a13a3e1030ff making call to direction API
+2021-08-15 03:41:17,908 INFO com.test.assessment.controller.AssessmentController [http-nio-8080-exec-3] Request=ServletWebRequest: uri=/assessment/coordinates;client=0:0:0:0:0:0:0:1, RequestBody=200 OK, ResponseCode={}, ResponseBody={}
+2021-08-15 03:41:17,911 INFO com.test.assessment.services.AssessmentService [http-nio-8080-exec-3] RequestId=790eb6d7-1f25-4ce9-9127-d6a7903aa645 making call to direction API
+2021-08-15 03:49:21,304 INFO com.test.assessment.AssessmentApplication [restartedMain] Starting AssessmentApplication using Java 1.8.0_202 on PU-RGUPTA with PID 27565 (/Users/roshan.gupta/Documents/java/assessment/build/classes/java/main started by roshan.gupta in /Users/roshan.gupta/Documents/java/assessment)
+2021-08-15 03:49:21,305 INFO com.test.assessment.AssessmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-15 03:49:21,336 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-15 03:49:21,336 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-15 03:49:21,976 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-15 03:49:21,981 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-08-15 03:49:21,981 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-15 03:49:22,050 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-15 03:49:22,050 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 714 ms
+2021-08-15 03:49:22,264 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-15 03:49:22,297 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 03:49:22,306 INFO com.test.assessment.AssessmentApplication [restartedMain] Started AssessmentApplication in 1.267 seconds (JVM running for 1.756)
+2021-08-15 03:49:25,632 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 03:49:25,635 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-08-15 03:49:25,636 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-08-15 03:49:25,674 INFO com.test.assessment.controller.AssessmentController [http-nio-8080-exec-1] Request=ServletWebRequest: uri=/assessment/coordinates;client=0:0:0:0:0:0:0:1, RequestBody=200 OK, ResponseCode={}, ResponseBody={}
+2021-08-15 03:49:25,808 INFO com.test.assessment.services.AssessmentService [http-nio-8080-exec-1] RequestId=2d5ac1f8-b793-4e47-88d0-ea48b1a90fdd making call to direction API
+2021-08-15 10:47:37,207 INFO com.test.assessment.AssessmentApplication [restartedMain] Starting AssessmentApplication using Java 1.8.0_202 on PU-RGUPTA with PID 28183 (/Users/roshan.gupta/Documents/java/assessment/build/classes/java/main started by roshan.gupta in /Users/roshan.gupta/Documents/java/assessment)
+2021-08-15 10:47:37,209 INFO com.test.assessment.AssessmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-15 10:47:37,244 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-15 10:47:37,244 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-15 10:47:37,846 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-15 10:47:37,856 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-08-15 10:47:37,856 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-15 10:47:37,896 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-15 10:47:37,896 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 652 ms
+2021-08-15 10:47:38,108 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-15 10:47:38,127 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 10:47:38,134 INFO com.test.assessment.AssessmentApplication [restartedMain] Started AssessmentApplication in 1.275 seconds (JVM running for 1.612)
+2021-08-15 10:47:46,399 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 10:47:46,399 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-08-15 10:47:46,400 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-08-15 10:47:46,422 INFO com.test.assessment.controller.AssessmentController [http-nio-8080-exec-1] Request=ServletWebRequest: uri=/assessment/coordinates;client=0:0:0:0:0:0:0:1, RequestBody=200 OK, ResponseCode={}, ResponseBody={}
+2021-08-15 10:47:46,594 INFO com.test.assessment.services.AssessmentService [http-nio-8080-exec-1] RequestId=a1027647-0402-4905-8bfb-273ee30eb870 making call to direction API
+2021-08-15 10:56:24,292 INFO com.test.assessment.AssessmentApplication [restartedMain] Starting AssessmentApplication using Java 1.8.0_202 on PU-RGUPTA with PID 29158 (/Users/roshan.gupta/Documents/java/assessment/build/classes/java/main started by roshan.gupta in /Users/roshan.gupta/Documents/java/assessment)
+2021-08-15 10:56:24,293 INFO com.test.assessment.AssessmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-15 10:56:24,321 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-15 10:56:24,321 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-15 10:56:24,821 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-15 10:56:24,826 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-08-15 10:56:24,826 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-15 10:56:25,049 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-15 10:56:25,050 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 728 ms
+2021-08-15 10:56:25,255 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-15 10:56:25,272 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 10:56:25,278 INFO com.test.assessment.AssessmentApplication [restartedMain] Started AssessmentApplication in 1.256 seconds (JVM running for 1.524)
+2021-08-15 10:56:37,871 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 10:56:37,871 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-08-15 10:56:37,872 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-08-15 10:56:37,894 INFO com.test.assessment.controller.AssessmentController [http-nio-8080-exec-1] Request=ServletWebRequest: uri=/assessment/coordinates;client=0:0:0:0:0:0:0:1, RequestBody=200 OK, ResponseCode={}, ResponseBody={}
+2021-08-15 10:56:38,042 INFO com.test.assessment.services.AssessmentService [http-nio-8080-exec-1] RequestId=0a0c379e-68ec-4bc8-b172-82632788b313 making call to direction API
+2021-08-15 11:00:54,610 INFO com.test.assessment.controller.AssessmentController [http-nio-8080-exec-4] Request=ServletWebRequest: uri=/assessment/coordinates;client=0:0:0:0:0:0:0:1, RequestBody=200 OK, ResponseCode={}, ResponseBody={}
+2021-08-15 11:00:54,615 INFO com.test.assessment.services.AssessmentService [http-nio-8080-exec-4] RequestId=30123511-2810-470a-9d4e-d7aa948333e4 making call to direction API
+2021-08-15 11:21:18,494 INFO com.test.assessment.AssessmentApplicationTests [Test worker] Starting AssessmentApplicationTests using Java 1.8.0_202 on PU-RGUPTA with PID 32945 (started by roshan.gupta in /Users/roshan.gupta/Documents/java/location-simulator)
+2021-08-15 11:21:18,496 INFO com.test.assessment.AssessmentApplicationTests [Test worker] No active profile set, falling back to default profiles: default
+2021-08-15 11:21:19,593 INFO com.test.assessment.AssessmentApplicationTests [Test worker] Started AssessmentApplicationTests in 1.354 seconds (JVM running for 3.578)
+2021-08-15 11:24:21,649 INFO com.test.assessment.AssessmentApplication [restartedMain] Starting AssessmentApplication using Java 1.8.0_202 on PU-RGUPTA with PID 33148 (/Users/roshan.gupta/Documents/java/location-simulator/build/classes/java/main started by roshan.gupta in /Users/roshan.gupta/Documents/java/location-simulator)
+2021-08-15 11:24:21,650 INFO com.test.assessment.AssessmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-15 11:24:21,677 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-15 11:24:21,677 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-15 11:24:22,184 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-15 11:24:22,190 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-08-15 11:24:22,190 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-15 11:24:22,223 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-15 11:24:22,224 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 547 ms
+2021-08-15 11:24:22,423 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-15 11:24:22,440 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 11:24:22,446 INFO com.test.assessment.AssessmentApplication [restartedMain] Started AssessmentApplication in 1.046 seconds (JVM running for 1.322)
+2021-08-15 11:24:55,783 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 11:24:55,783 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-08-15 11:24:55,784 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-08-15 11:25:14,828 INFO com.test.assessment.controller.AssessmentController [http-nio-8080-exec-2] 1e1e0e29-4136-4b1e-bd15-4cf7a5de610a
